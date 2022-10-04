@@ -1,5 +1,12 @@
 # Hoisting
 
-<p>Hosting is a mechanism which elevates variables and function declarations to the top of the file.</p>
+Hosting is a mechanism which elevates variables and function declarations to the top of the block scope.
 
-// TODO
+In case of variables or functions expressions, their definition is being hoisted but in case of function declaration, the whole function with content is being hoisted.
+
+> console.log('test');  
+> const/let/var x = 5;  
+>
+> function Fun() {  
+>       // some logic  
+> }
